@@ -13,9 +13,11 @@ class TrafficLightConverter
         $columnValues = $instance->getCategoryValues(gender: $gender, age: $age);
         $category = null;
 
-        foreach ($columnValues as $index => $value)
-            if ($bmi <= $value)
+        foreach ($columnValues as $index => $value) {
+            if ($bmi <= $value) {
                 $category = self::categories[$index];
+            }
+        }
 
         return match ($category) {
             default => "red",
