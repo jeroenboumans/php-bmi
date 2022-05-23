@@ -1,11 +1,11 @@
 {
-    "name": "stimuliz/bmi",
+    "name": "jeroenboumans/php-bmi",
     "description": "Convert BMI values to other formats",
     "keywords": [
-        "stimuliz",
+        "jeroenboumans",
         "bmi"
     ],
-    "homepage": "https://github.com/stimuliz/bmi",
+    "homepage": "https://github.com/jeroenboumans/php-bmi",
     "license": "MIT",
     "authors": [
         {
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Stimuliz\\BMI\\": "src"
+            "JeroenBoumans\\BMI\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Stimuliz\\BMI\\Tests\\": "tests"
+            "JeroenBoumans\\BMI\\Tests\\": "tests"
         }
     },
     "scripts": {

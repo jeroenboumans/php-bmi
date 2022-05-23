@@ -1,9 +1,9 @@
 <?php
 
-namespace Stimuliz\BMI;
+namespace JeroenBoumans\BMI;
 
-use Stimuliz\BMI\Converter\TrafficLightConverter;
-use Stimuliz\BMI\Enum\Gender;
+use JeroenBoumans\BMI\Converter\TrafficLightConverter;
+use JeroenBoumans\BMI\Enum\Gender;
 
 class BMI
 {

@@ -2,9 +2,9 @@
 
 # Convert BMI values to other formats
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/stimuliz/bmi.svg?style=flat-square)](https://packagist.org/packages/stimuliz/bmi)
-[![Tests](https://github.com/stimuliz/bmi/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/stimuliz/bmi/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/stimuliz/bmi.svg?style=flat-square)](https://packagist.org/packages/stimuliz/bmi)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/jeroenboumans/php-bmi.svg?style=flat-square)](https://packagist.org/packages/jeroenboumans/php-bmi)
+[![Tests](https://github.com/jeroenboumans/php-bmi/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/jeroenboumans/php-bmi/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/jeroenboumans/php-bmi.svg?style=flat-square)](https://packagist.org/packages/jeroenboumans/php-bmi)
 
 This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
 
@@ -21,14 +21,14 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require stimuliz/bmi
+composer require jeroenboumans/php-bmi
 ```
 
 ## Usage
 
 ```php
-$skeleton = new Stimuliz\BMI();
-echo $skeleton->echoPhrase('Hello, Stimuliz!');
+$skeleton = new JeroenBoumans\BMI();
+echo $skeleton->echoPhrase('Hello, JeroenBoumans!');
 ```
 
 ## Testing

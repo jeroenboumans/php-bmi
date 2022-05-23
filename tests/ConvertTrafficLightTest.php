@@ -1,8 +1,8 @@
 <?php
 
-use Stimuliz\BMI\BMI;
-use Stimuliz\BMI\Converter\TrafficLightConverter;
-use Stimuliz\BMI\Enum\Gender;
+use JeroenBoumans\BMI\BMI;
+use JeroenBoumans\BMI\Converter\TrafficLightConverter;
+use JeroenBoumans\BMI\Enum\Gender;
 
 test('Correct column chosen', function () {
     expect((new TrafficLightConverter())

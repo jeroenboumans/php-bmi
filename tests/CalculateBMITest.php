@@ -1,7 +1,7 @@
 <?php
 
-use Stimuliz\BMI\BMI;
-use Stimuliz\BMI\Enum\Gender;
+use JeroenBoumans\BMI\BMI;
+use JeroenBoumans\BMI\Enum\Gender;
 
 test('BMI value can be calculated correctly', function () {
     expect(BMI::from(65, 170, 12, Gender::MALE)->calculate())->toEqual(22.5);

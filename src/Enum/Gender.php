@@ -1,6 +1,6 @@
 <?php
 
-namespace Stimuliz\BMI\Enum;
+namespace JeroenBoumans\BMI\Enum;
 
 enum Gender
 {
